@@ -62,7 +62,7 @@ def pong_proxy(
 
     from proxystore.proxy import Proxy
     from proxystore.proxy import is_resolved
-    from proxystore.proxy import resolve_async
+    from proxystore.store.utils import resolve_async
     from proxystore.store import get_store
     from proxystore.store import UnknownStoreError
 
